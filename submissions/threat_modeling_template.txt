@@ -4,7 +4,7 @@ Given Docker's system components and the STRIDE framework, identify five potenti
 1) Tampering: Insecure Docker API. Attacker can get control of the docker client.
 2) Information Disclosure: Insecure Docker Image pulls. Sensitive information may be left in the image and exposed at runtime.
 3) Elevation of Privelege: Container Escape. The --privelege flag allow elevation of the container image permissions.
-4) Spoofing: Container spoofing. A sidecar container that has intentional access to the primaray container's namespace may spoof the namespace resulting in isolation tampering.
+4) Spoofing: Image spoofing. Authenticity of images should be controlled.
 5) Repudiation: Daemon misconfiguration. An user can make changes to the daemon that are not legitimate.
 
 Kubernetes Threat Modeling
