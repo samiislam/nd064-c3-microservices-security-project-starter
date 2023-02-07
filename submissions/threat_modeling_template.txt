@@ -13,7 +13,7 @@ Given Kubernetes' system components and the STRIDE framework, identify five pote
 1) Tampering: etcd data tampering. An attacker can tamper with etcd data modifying vital system-level configuration.
 2) Denial of Service: Excessive traffic. Excessive traffic to API server can lead to resource exhaustion.
 3) Information Disclosure: Insecure Kubernetes Dashboard. Sensitive information can be exposed.
-4) Elevation of Privelege: Unsecured Kubelet. Attackers can get control of the Kubelet and make changes that are not legitimate.
+4) Elevation of Privilege: Unsecured Kubelet. Attackers can get control of the Kubelet and make changes that are not legitimate.
 5) Repudiation: Unauthorized change to Kubelet. Kubelet authentication should be TLS.
 
 Docker-bench Run Results and Analysis
@@ -22,7 +22,7 @@ From the failed findings, select and document 3 findings from the Docker-bench r
 1) 1.2.4 Ensure auditing is configured for Docker files and directories - /var/lib/docker (Scored) --> Information Disclosure
 AND 2.1 Ensure network traffic is restricted between containers on the default bridge (Scored) --> Information Disclosure
 
-2) 2.17.b Ensure containers are restricted from acquiring new privileges (Scored) --> Elevation of Privelege
+2) 2.17.b Ensure containers are restricted from acquiring new privileges (Scored) --> Elevation of Privilege
 
 3) 4.5 Ensure Content trust for Docker is Enabled (Scored) --> Spoofing
 
