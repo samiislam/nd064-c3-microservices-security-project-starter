@@ -1,0 +1,17 @@
+An operational test plan for hardening a Kubernetes cluster would involve several steps to ensure the changes made to improve the security of the cluster do not negatively affect its performance or availability. Here is a high-level description of the steps involved:
+
+1) Plan the changes: The first step would be to plan the changes that need to be made to harden the cluster. This would involve researching the latest best practices for securing Kubernetes clusters and determining which changes would be appropriate for your particular setup.
+
+2) Test the changes in a development environment: Once the changes have been planned, the next step would be to test them in a development environment that closely resembles the production cluster. This would involve setting up a test cluster and applying the changes to it.
+
+3) Monitor the cluster's behavior: Once the changes have been applied to the test cluster, it is important to monitor its behavior to ensure that there are no negative effects on performance or availability. This can be done by using tools such as Prometheus to monitor resource usage, and by testing the cluster's response to different types of requests.
+
+4) Document the results: The results of the tests should be documented, including any negative effects that were observed and how they were resolved. This documentation can be used to inform future decisions about security hardening and to provide a record of what changes were made to the cluster.
+
+5) Repeat the tests: The tests should be repeated multiple times to ensure that the changes are consistent and that the cluster continues to perform well. If any negative effects are observed, the changes should be reviewed and modified as necessary.
+
+6) Test a rollback plan: Implement and test a rollback plan before implementing the changes in production. This provides assurance of being able to quickly handle any unforseen adverse effects in production.
+
+7) Implement the changes in production: Once the tests have been completed, the results have been documented, and a rollback plan has been setup, the changes can be implemented in the production cluster. Before making the changes, it is important to ensure that all necessary backups are in place to minimize the risk of any unintended consequences.
+
+8) Monitor the cluster's behavior in production: After the changes have been made, it is important to monitor the cluster's behavior in production to ensure that there are no negative effects on performance or availability. If any issues are observed, they should be addressed promptly to ensure that the cluster remains secure and available.

@@ -1,0 +1,16 @@
+1. Incident commander name: Sami Islam
+
+2. Executive Summary of what happened:
+On 10.02.20023, a security breach was detected in the Kubernetes cluster. The attacker was able to penetrate the cluster and start a cryptojacking attack, which involved using the cluster's resources to mine cryptocurrency without the owner's permission.
+
+3. Summary of what was affected:
+The attacker was able to gain access to several nodes in the cluster and use them to run their malicious mining software. This resulted in increased resource usage and decreased performance on the affected nodes.
+
+4. Summmry of the impact:
+The impact of the attack was significant, as the increased resource usage caused degradation of the cluster's performance, leading to slowdowns and potential outages for applications running on the affected nodes. Additionally, the attack could have led to increased costs for the organization if the attacker was able to use the resources for an extended period of time.
+
+5. Summary of the remediation steps:
+Immediate steps were taken to isolate the affected nodes and secure the cluster. The malicious software was removed from the affected nodes and the cluster was thoroughly scanned for any additional vulnerabilities. To prevent similar attacks from happening in the future, additional security measures were implemented, including enhanced network segmentation and increased monitoring of resource usage on the nodes.
+
+6. Summary of lessons learned:
+This incident highlights the importance of ongoing monitoring and security assessments in a Kubernetes cluster. The attack was able to penetrate the cluster due to a lack of visibility into resource usage and the absence of proactive security measures. Going forward, the organization will prioritize the implementation of a comprehensive security plan for the Kubernetes cluster, including regular security assessments and monitoring of resource usage to detect and respond to similar incidents in a timely manner.
