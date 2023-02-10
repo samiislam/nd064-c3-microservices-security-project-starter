@@ -1,4 +1,4 @@
-An operational test plan for hardening a Kubernetes cluster would involve several steps to ensure the changes made to improve the security of the cluster do not negatively affect its performance or availability. Here is a high-level description of the steps involved:
+An operational test plan for hardening a Kubernetes cluster involves several steps to ensure the changes made to improve the security of the cluster do not negatively affect its performance or availability. Here is a high-level description of the steps involved:
 
 1) Plan the changes: The first step would be to plan the changes that need to be made to harden the cluster. This would involve researching the latest best practices for securing Kubernetes clusters and determining which changes would be appropriate for your particular setup.
 
